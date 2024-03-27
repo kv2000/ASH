@@ -3,7 +3,7 @@
 @Author: Heming Zhu
 @Email: hezhu@mpi-inf.mpg.de
 @Date: 2024-3-1
-@Desc: The dataset adpated for testing ASH on DynaCap dataset.
+@Desc: The dataset adpated for ASH on DynaCap dataset.
 """
 
 import sys
