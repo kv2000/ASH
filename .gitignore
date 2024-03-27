@@ -2,7 +2,8 @@
 **/dist
 **/*.egg-info
 **/__pycache__
-**/requirements.txt
-**/**.pth
-./examples/checkpoints/**.**
-./examples/mesh_output/**.**
+
+# for the folders :)))))))
+checkpoints/
+dump_results/
+meta_data/
