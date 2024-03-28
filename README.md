@@ -74,7 +74,7 @@ meta_data
     |---skeletoolToGTPoseTest               # Testing poses
     |   |--- ...
     |
-    |---skeletoolToGTPoseRetarget           # Retartget poses
+    |---skeletoolToGTPoseRetarget           # Retartget another subject's pose
     |   |--- ...
     |
     |--- ...                                # Others
@@ -92,9 +92,26 @@ bash run_inference.sh
 ---
 # Todo list
 
+- [ ] Data processing and training
+- [ ] ...
+
 
 ---
 # Contributers
 
 ---
+
+# Contact
+For questions, clarifications, feel free to get in touch with:
+
+Heming Zhu: hezhu@mpi-inf.mpg.de
+
+Marc Habermann: mhaberma@mpi-inf.mpg.de
+
+---
+# License
+Deep Characters Pyotrch is under [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) license. The license applies to the pre-trained models and the metadata as well.
+
+---
 # Acknowledgements
+Christian Theobalt was supported by ERC Consolidator Grant 4DReply (No.770784). Adam Kortylewski was supported by the German Science Foundation (No.468670075). This project was also supported by the Saarbrucken Research Center for Visual Computing, Interaction, and AI. We would also like to thank Andrea Boscolo Camiletto and Muhammad Hamza Mughal for the efforts/discussion on motion retargeting.
