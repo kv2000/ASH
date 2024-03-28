@@ -11,8 +11,8 @@
     ·
     <a href="https://people.mpi-inf.mpg.de/~mhaberma/"><strong>Marc habermann&ddagger;</strong></a>
   </p> 
-  <p align="center" style="font-size:15px; margin-bottom:0px !important;"><sup>&dagger;</sup>Joint first authors.</p>
-  <p align="center" style="font-size:15px; margin-bottom:10px !important;"><sup>&ddagger;</sup>Corresponding author.</p>
+  <p align="center" style="font-size:15px; margin-bottom:-5px !important;"><sup>&dagger;</sup>Joint first authors.</p>
+  <p align="center" style="font-size:15px; margin-bottom:-10px !important;"><sup>&ddagger;</sup>Corresponding author.</p>
 
 ---
 
