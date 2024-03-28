@@ -97,16 +97,11 @@ bash run_inference.sh
 
 
 ---
-# Contributers
-
----
 
 # Contact
-For questions, clarifications, feel free to get in touch with:
-
-Heming Zhu: hezhu@mpi-inf.mpg.de
-
-Marc Habermann: mhaberma@mpi-inf.mpg.de
+For questions, clarifications, feel free to get in touch with:  
+Heming Zhu: hezhu@mpi-inf.mpg.de  
+Marc Habermann: mhaberma@mpi-inf.mpg.de  
 
 ---
 # License
