@@ -115,6 +115,7 @@ Christian Theobalt was supported by ERC Consolidator Grant 4DReply (No.770784). 
 
 Below are some resorces that we benefit from (keep updating):
 
-- <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D gaussian-splatting</a>, bravos for the brilliant representation for real-time and high-quality rendering.
+- <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D gaussian-splatting</a>, bravo for the brilliant representation for real-time and high-quality rendering.
 - <a href="https://github.com/kv2000/DeepCharacters_Pytorch">DeepCharacters Pytorch</a> for the human character model.
 - <a href="https://pytorch3d.org/">Pytorch3D</a> and <a href="https://github.com/kornia/kornia">Kornia</a> for the handy geometry library.
+- <a href="https://github.com/Totoro97/NeuS">NeuS</a> for the project structure D:.
