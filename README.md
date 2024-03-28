@@ -1,16 +1,18 @@
 # ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering (CVPR 2024)
 
   <p align="center">
-    <strong>Haokai Pang*</strong>
+    <strong>Haokai Pang&dagger;</strong>
     ·    
-    <a href="https://people.mpi-inf.mpg.de/~hezhu/"><strong>Heming Zhu*</strong></a>
+    <a href="https://people.mpi-inf.mpg.de/~hezhu/"><strong>Heming Zhu&dagger;</strong></a>
     ·
     <a href="https://gvrl.mpi-inf.mpg.de/"><strong>Adam Kortylewski</strong></a>
     ·
     <a href="https://people.mpi-inf.mpg.de/~theobalt/"><strong>Christian Theobalt</strong></a>
     ·
-    <a href="https://people.mpi-inf.mpg.de/~mhaberma/"><strong>Marc habermann#</strong></a>
+    <a href="https://people.mpi-inf.mpg.de/~mhaberma/"><strong>Marc habermann&ddagger;</strong></a>
   </p> 
+  <p align="center" style="font-size:15px; margin-bottom:0px !important;"><sup>&dagger;</sup>Joint first authors.</p>
+  <p align="center" style="font-size:15px; margin-bottom:10px !important;"><sup>&ddagger;</sup>Corresponding author.</p>
 
 ---
 
