@@ -63,7 +63,7 @@ The extracted metadata and checkpoints follows folder structure below
 ```bash
 # for the checkpoints
 checkpoints
---- Subject0001
+|--- Subject0001
     |---deformable_character_checkpoint.pth # character checkpoints
     |---gaussian_checkpoints.tar            # gaussian checkpoints
 
@@ -112,3 +112,9 @@ Deep Characters Pyotrch is under [CC-BY-NC](https://creativecommons.org/licenses
 ---
 # Acknowledgements
 Christian Theobalt was supported by ERC Consolidator Grant 4DReply (No.770784). Adam Kortylewski was supported by the German Science Foundation (No.468670075). This project was also supported by the Saarbrucken Research Center for Visual Computing, Interaction, and AI. We would also like to thank Andrea Boscolo Camiletto and Muhammad Hamza Mughal for the efforts/discussion on motion retargeting.
+
+Below are some resorces that we benefit from (keep updating):
+
+- <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D gaussian-splatting</a>, bravos for the brilliant representation for real-time and high-quality rendering.
+- <a href="https://github.com/kv2000/DeepCharacters_Pytorch">DeepCharacters Pytorch</a> for the human character model.
+- <a href="https://pytorch3d.org/">Pytorch3D</a> and <a href="https://github.com/kornia/kornia">Kornia</a> for the handy geometry library.
