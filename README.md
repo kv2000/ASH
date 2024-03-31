@@ -94,9 +94,8 @@ bash run_inference.sh
 ---
 # Todo list
 
-- [ ] Data processing and training
-- [ ] ...
-
+- [ ] Data processing for Training
+- [ ] Training Code
 
 ---
 
@@ -113,7 +112,7 @@ Deep Characters Pyotrch is under [CC-BY-NC](https://creativecommons.org/licenses
 # Acknowledgements
 Christian Theobalt was supported by ERC Consolidator Grant 4DReply (No.770784). Adam Kortylewski was supported by the German Science Foundation (No.468670075). This project was also supported by the Saarbrucken Research Center for Visual Computing, Interaction, and AI. We would also like to thank Andrea Boscolo Camiletto and Muhammad Hamza Mughal for the efforts/discussion on motion retargeting.
 
-Below are some resorces that we benefit from (keep updating):
+Below are some resources that we benefit from (keep updating):
 
 - <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D gaussian-splatting</a>, bravo for the brilliant representation for real-time and high-quality rendering.
 - <a href="https://github.com/kv2000/DeepCharacters_Pytorch">DeepCharacters Pytorch</a> for the human character model.
