@@ -99,6 +99,21 @@ bash run_inference.sh
 
 ---
 
+# Citation
+
+If you find our work useful for your research, please, please, please consider citing our paper!
+
+```
+@article{pang2023ash,
+  title={Ash: Animatable gaussian splats for efficient and photoreal human rendering},
+  author={Pang, Haokai and Zhu, Heming and Kortylewski, Adam and Theobalt, Christian and Habermann, Marc},
+  journal={arXiv preprint arXiv:2312.05941},
+  year={2023}
+}
+```
+
+---
+
 # Contact
 For questions, clarifications, feel free to get in touch with:  
 Heming Zhu: hezhu@mpi-inf.mpg.de  
