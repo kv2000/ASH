@@ -9,7 +9,7 @@
     ·
     <a href="https://people.mpi-inf.mpg.de/~theobalt/"><strong>Christian Theobalt</strong></a>
     ·
-    <a href="https://people.mpi-inf.mpg.de/~mhaberma/"><strong>Marc habermann&ddagger;</strong></a>
+    <a href="https://people.mpi-inf.mpg.de/~mhaberma/"><strong>Marc Habermann&ddagger;</strong></a>
   </p> 
   <p align="center" style="font-size:15px; margin-bottom:-5px !important;"><sup>&dagger;</sup>Joint first authors.</p>
   <p align="center" style="font-size:15px; margin-bottom:-10px !important;"><sup>&ddagger;</sup>Corresponding author.</p>
