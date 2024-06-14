@@ -17,6 +17,8 @@
 ---
 
 # News
+**2024-6-14** The <strong><font color=green>Training Code</font></strong>, and the <strong><font color=red>Data Processing Code</font></strong> is available! 
+
 **2024-3-29** The initial release, i.e., the <strong><font color=green>Demo Code</font></strong> is available. The <strong><font color=red>Training Code</font></strong> is on the way. For more details, pleaase check out <a href="https://vcai.mpi-inf.mpg.de/projects/ash/"><strong>the project page</strong></a>:smiley:.
 
 ---
@@ -92,10 +94,54 @@ bash run_inference.sh
 ```
 
 ---
+# Train your model
+## Step 1. Data Processing
+- Download the compressed  raw data from <a href="https://gvv-assets.mpi-inf.mpg.de/ASH/"><strong>from this link</strong></a> in to ```./raw_data/``` .
+- Decompress the data with ```tar -xzvf Subject0022.tar.gz```
+- Run the <strong>(slurm) bash script</strong> ```./process_video/bash_get_image.sh``` that extracts the <strong>masked images</strong> from the <strong>raw RGB videoes</strong> and the <strong>foreground mask videoes </strong>. The provided script supports parallel the image extraction with slurm job arrays.
+
+## Step 2. Start Training
+Run the following and the results will be stored in ```./dump_results/``` by default.
+
+```bash
+bash run_train.sh
+```
+
+The folder structure for the training is as follows:
+
+```bash
+# for the meta data
+dump_results
+|--- Subject0022
+    |---cached_files                                # The precomputed character related
+    |   |--- cached_fin_rotation_quad.pkl
+    |   |--- cached_fin_translation_quad.pkl
+    |   |--- cached_joints.pkl
+    |   |--- cached_ret_canonical_delta.pkl
+    |   |--- cached_ret_posed_delta.pkl
+    |   |--- cached_temp_vert_normal.pkl
+    |
+    |---checkpoints                               
+    |   |--- ...
+    |
+    |---exp_stats                                   # Tensorboard Logs
+    |   |--- ...
+    |
+    |---validations_fine                            # Validationed images every X Frames
+```
+
+Note that at the <strong>first time</strong> that the training script runs, it will pre-compute and store the <strong>character related data</strong>, stored in ```./dump_results/[Subject Name]/cached_files/```. Which will greatly speed up and reduce the gpu usage of the training process.
+
+## Step 3. Train with your own data.
+
+Plese check out <a href="https://github.com/kv2000/ASH/issues/4"><strong>this issue</strong></a> on some hints on training on your own data, discussion is welcomed :).
+
+
+---
 # Todo list
 
-- [ ] Data processing for Training
-- [ ] Training Code
+- [x] Data processing for Training
+- [x] Training Code
 
 ---
 

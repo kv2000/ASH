@@ -1,0 +1,1 @@
+python exp_trainer_base.py --conf ./confs/Subject0022/subject0022_train.conf
