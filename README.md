@@ -17,7 +17,7 @@
 ---
 
 # News
-**2024-6-14** The <strong><font color=green>Training Code</font></strong>, and the <strong><font color=red>Data Processing Code</font></strong> is available! 
+**2024-6-14** The <strong><font color=green>Training Code</font></strong>, and the <strong><font color=red>Data Processing Code</font></strong> is available! :fireworks::fireworks::fireworks:
 
 **2024-3-29** The initial release, i.e., the <strong><font color=green>Demo Code</font></strong> is available. The <strong><font color=red>Training Code</font></strong> is on the way. For more details, pleaase check out <a href="https://vcai.mpi-inf.mpg.de/projects/ash/"><strong>the project page</strong></a>:smiley:.
 
@@ -150,11 +150,13 @@ Plese check out <a href="https://github.com/kv2000/ASH/issues/4"><strong>this is
 If you find our work useful for your research, please, please, please consider citing our paper!
 
 ```
-@article{pang2023ash,
-  title={Ash: Animatable gaussian splats for efficient and photoreal human rendering},
-  author={Pang, Haokai and Zhu, Heming and Kortylewski, Adam and Theobalt, Christian and Habermann, Marc},
-  journal={arXiv preprint arXiv:2312.05941},
-  year={2023}
+@InProceedings{Pang_2024_CVPR,
+    author    = {Pang, Haokai and Zhu, Heming and Kortylewski, Adam and Theobalt, Christian and Habermann, Marc},
+    title     = {ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {1165-1175}
 }
 ```
 
